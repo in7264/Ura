@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    background-color: #333;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button[type="button"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.highlighted-row {
+    background-color: #FFFF99; /* Змініть кольори на свій смак */
+}
